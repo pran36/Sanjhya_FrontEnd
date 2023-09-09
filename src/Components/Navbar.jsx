@@ -5,7 +5,7 @@ function Navbar() {
     <>
     <nav className="navbar sticky-top">
         <div className='container'>
-            <a class="navbar-brand" href="#"><img src='./Images/PNG-Sanjhya-Club.png' alt="image" /></a>
+            <a className="navbar-brand" href="#"><img src='./Images/PNG-Sanjhya-Club.png' alt="image" /></a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>

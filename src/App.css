@@ -1,3 +1,4 @@
+/* navbar CSS */
 nav{
     background-color: #2D2D2D;
     height: auto;
@@ -10,40 +11,27 @@ nav a:hover{
 }
 nav img{
     width: 90px;
-    /* float: left; */
 }
-/* .container{
-    float: left;
-} */
 .container{
-    /* overflow: hidden; */
-    /* opacity: 0.5; */
-    /* background-color: rgb(134, 22, 22, 0.4); */
     color: #B32205;
     float: right;
     width: 100%;
     height: auto;
     text-align: right;
-    /* position: relative; */
-    
   }
   
   .container ul{
-    /* display: inline; */
     list-style: none;
   }
   .container ul li{
     font-size: 25px;
     display: inline;
     margin-right: 30px;
-    /* margin-top: 10px; */
   }
   .container a{
     color: aliceblue;
     text-decoration: none;
     position: relative;
-    /* background-color: blue; */
-    
   }
   .container a:after{
     content: '';
@@ -65,4 +53,15 @@ nav img{
   .container a:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  /*Banner CSS*/
+  .banner{
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
   }
