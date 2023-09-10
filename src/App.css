@@ -65,3 +65,42 @@ nav img{
     display: flex;
     justify-content: center;
   }
+
+  .ourteam{
+    margin: 10px;
+    color: #7F5A57;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-gallery{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #676767;
+  }
+  .slide{
+    float: left;
+    margin-right:50px ;
+    /* display: flex; */
+    justify-content: center;
+  }
+  .slides{
+  white-space: nowrap;
+  overflow: scroll;
+  display: flex;
+  }
+  .slides > div {
+    scroll-snap-align: start;
+  }
+  
+  .slides img {
+    width: 540px;
+    object-fit: contain;
+  }
+  
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
